@@ -1,11 +1,12 @@
 body {
   background-color: #151320;
 }
+/* header start*/
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #4e4e52;
+  background-color: rgb(255, 255, 255, 0.2);
   border: 2px sild gray;
   height: 50px;
   border-radius: 4px;
@@ -61,3 +62,310 @@ header {
   color: rgb(23, 236, 252);
   border-bottom: 2px solid rgb(255, 255, 255);
 }
+/* header end*/
+.slides {
+  margin-top: 10px;
+  height: 400px;
+  background-color: rgb(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 10px;
+}
+.item {
+  margin-top: 10px;
+  height: 700px;
+  background-color: rgb(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+.row1 {
+  margin-top: 70px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: 30%;
+}
+.product1 {
+  margin-left: 60px;
+  align-items: center;
+}
+.product2,
+.product3,
+.product4 {
+  margin-left: 70px;
+  align-items: center;
+}
+/*product1 start */
+.card {
+  width: 180px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  border: 1px solid rgb(206, 13, 13);
+  border-radius: 5px;
+}
+
+.card .imgbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: rgb(0, 174, 255);
+  transition: 0.5s ease-in-out;
+}
+.card .imgbox img {
+  margin-top: 130px;
+  width: 85%;
+  position: static;
+}
+
+.card:hover .imgbox img {
+  content: "";
+  position: relative;
+  transition: 1s;
+  transform: translate(-10px, -27px) rotate(-20deg) scale(1.4);
+}
+.card:hover .imgbox {
+  content: "";
+  position: relative;
+  transform: translateY(-35px);
+}
+.card:hover .imgbox h4 {
+  content: "";
+  position: relative;
+  font-weight: 200px;
+  color: rgb(243, 69, 69);
+  filter: brightness(5px);
+}
+.dis h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0;
+}
+.dis p {
+  color: rgb(0, 204, 255);
+  opacity: 0;
+}
+
+.card:hover .dis h6 {
+  transform: translateY(-40px);
+  transition: 1s;
+  margin-right: 100px;
+  opacity: 1;
+}
+.card:hover .dis p {
+  transform: translateY(-55px);
+  transition: 1s;
+  opacity: 1;
+}
+a button {
+  opacity: 0;
+}
+.card:hover a button {
+  opacity: 1;
+  transform: translateY(-69px);
+  transition: 1s;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  height: 28px;
+  width: 60px;
+  border-radius: 6px;
+  font-size: xx-small;
+  background-color: rgb(22, 252, 252);
+}
+/*product1 end*/
+
+/*product2 start */
+.card2 {
+  width: 180px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(204, 15, 147);
+
+  justify-content: center;
+
+  border-radius: 5px;
+}
+
+.card2 .imgbox2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: rgb(29, 206, 147);
+  transition: 0.5s ease-in-out;
+}
+.card2 .imgbox2 img {
+  margin-top: 130px;
+  width: 85%;
+  position: static;
+}
+
+.card2:hover .imgbox2 img {
+  content: "";
+  position: relative;
+  transition: 1s;
+  transform: translate(-5px, 20px) rotate(20deg) scale(1.4);
+}
+.card2:hover .imgbox2 {
+  content: "";
+  position: relative;
+  transform: translateY(-60px);
+}
+.card2:hover .imgbox2 .h4 {
+  content: "";
+  position: relative;
+  margin-bottom: 30px;
+
+  color: rgb(24, 10, 223);
+  filter: brightness(5px);
+}
+.dis2 .h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0;
+}
+.dis2 p {
+  color: rgb(42, 216, 120);
+  opacity: 0;
+}
+
+.card2:hover .dis2 .h6 {
+  transform: translateY(-40px);
+  transition: 1s;
+  margin-right: 100px;
+  opacity: 1;
+}
+.card2:hover .dis2 p {
+  transform: translateY(-55px);
+  transition: 1s;
+  opacity: 1;
+}
+a .btn2 {
+  opacity: 0;
+}
+.card2:hover a .btn2 {
+  opacity: 1;
+  transform: translateY(-69px);
+  transition: 1s;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  height: 28px;
+  width: 60px;
+  border-radius: 6px;
+  font-size: xx-small;
+  background-color: rgb(214, 19, 182);
+}
+/*product2 end*/
+/*product3 start */
+.card3 {
+  width: 180px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  border: 1px solid rgb(206, 13, 13);
+  border-radius: 5px;
+}
+
+.card3 .imgbox3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  color: rgb(0, 174, 255);
+  transition: 0.5s ease-in-out;
+}
+.card3 .imgbox3 img {
+  margin-top: 130px;
+  width: 85%;
+  position: static;
+}
+
+.card3:hover .imgbox3 img {
+  content: "";
+  position: relative;
+  transition: 1s;
+  transform: translate(-10px, -27px) rotate(-20deg) scale(1.4);
+}
+.card3:hover .imgbox3 {
+  content: "";
+  position: relative;
+  transform: translateY(-35px);
+}
+.card3:hover .imgbox3 .h4_3 {
+  content: "";
+  position: relative;
+  font-weight: 200px;
+  color: rgb(0, 225, 255);
+  filter: brightness(5px);
+}
+.dis3 .h6_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0;
+}
+.dis3 .p3 {
+  color: rgb(233, 229, 17);
+  opacity: 0;
+}
+
+.card3:hover .dis3 .h6_3 {
+  transform: translateY(-40px);
+  transition: 1s;
+  margin-right: 100px;
+  opacity: 1;
+}
+.card3:hover .dis3 .p3 {
+  transform: translateY(-55px);
+  transition: 1s;
+  opacity: 1;
+}
+a .btn3 {
+  opacity: 0;
+}
+.card3:hover a .btn3 {
+  opacity: 1;
+  transform: translateY(-69px);
+  transition: 1s;
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  height: 28px;
+  width: 60px;
+  border-radius: 6px;
+  font-size: xx-small;
+  background-color: rgb(255, 255, 255);
+}
+/*product3 end*/
