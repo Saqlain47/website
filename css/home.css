@@ -82,7 +82,7 @@ header {
 }
 .row1 {
   margin-top: 70px;
-  margin-left: 280px;
+  margin-left: 150px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -90,13 +90,13 @@ header {
   height: 30%;
 }
 .product1 {
-  margin-left: 60px;
+  margin-left: 130px;
   align-items: center;
 }
 .product2,
 .product3,
 .product4 {
-  margin-left: 70px;
+  margin-left: 130px;
   align-items: center;
 }
 /*product1 start */
