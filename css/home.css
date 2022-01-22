@@ -76,7 +76,7 @@ header {
 }
 .item {
   margin-top: 10px;
-  height: 950px;
+  height: 870px;
   background-color: rgb(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
@@ -90,7 +90,7 @@ li span img {
 } /*footer start*/
 footer {
   width: 95%;
-  margin-left: 14px;
+  margin-left: 8px;
   height: 200px;
   border-radius: 7px;
   background: rgb(255, 255, 255, 0.2);
@@ -188,7 +188,7 @@ footer .container .sec h3:hover:before {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  height: 20px;
+  height: 40px;
 }
 .row1 {
   justify-content: center;
