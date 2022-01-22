@@ -27,7 +27,7 @@ header {
 }
 .home a span {
   color: rgb(255, 255, 255);
-  margin-left: 700px;
+  margin-left: 500px;
   transition: 0.5s;
 }
 .home:hover a span {
@@ -55,7 +55,8 @@ header {
 }
 .log a span {
   color: rgb(243, 85, 74);
-  margin-left: 50px;
+  margin-left: 20px;
+
   transition: 0.5s;
 }
 .log:hover a span {
@@ -85,24 +86,110 @@ li a img {
   width: 20px;
 }
 li span img {
-  width: 20px;
-}
+  width: 13px;
+} /*footer start*/
 footer {
-  width: 100%;
-  height: auto;
+  width: 95%;
+  margin-left: 14px;
+  height: 200px;
+  border-radius: 7px;
   background: rgb(255, 255, 255, 0.2);
+  padding: 20px;
 }
 footer .container {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
-footer .container .sec h2 {
+footer .container .sec h3 {
   position: relative;
-  color: aliceblue;
-}
 
+  margin-left: 5px;
+  color: #fff;
+}
+footer .container .sec h3:hover {
+  content: "";
+  position: relative;
+  transition: 1s;
+
+  margin-left: 5px;
+  color: rgb(0, 0, 0);
+}
+footer .container .sec h3::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  background-color: white;
+}
+footer .container .sec h3:hover:before {
+  content: "";
+  transition: 1s;
+  position: absolute;
+  width: 80px;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  background-color: rgb(255, 0, 0);
+}
+.sec p {
+  color: rgb(206, 201, 201);
+}
+.sec p:hover {
+  content: "";
+  transition: 0.5s;
+  position: relative;
+  color: rgb(59, 201, 226);
+}
+.quicklinks {
+  position: relative;
+}
+.quicklinks li {
+  list-style: none;
+}
+.quicklinks li a {
+  color: rgb(206, 201, 201);
+  text-decoration: none;
+  margin-bottom: 1px;
+  display: inline block;
+}
+.quicklinks li a:hover {
+  content: "";
+  position: relative;
+  color: rgb(59, 201, 226);
+  text-decoration: none;
+  filter: brightness(10px);
+
+  display: inline block;
+}
+.shop a {
+  color: rgb(206, 201, 201);
+  text-decoration: none;
+}
+.shop a:hover {
+  content: "";
+  position: relative;
+
+  color: rgb(59, 201, 226);
+  text-decoration: none;
+}
+.contact {
+  color: rgb(206, 201, 201);
+}
+.contact span:hover {
+  color: rgb(59, 201, 226);
+} /*footer end*/
+.term {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 20px;
+}
 .row1 {
   justify-content: center;
   margin: 20px;
