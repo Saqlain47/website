@@ -76,6 +76,7 @@ header {
 /* header end*/
 .slides {
   margin-top: 10px;
+
   height: 700px;
   background-color: rgb(0, 174, 255);
   display: flex;
