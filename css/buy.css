@@ -3,7 +3,7 @@ body {
 }
 .side {
   position: relative;
-  width: 900px;
+  width: 800px;
   display: flex;
   flex-direction: row;
   height: 473px;
@@ -66,7 +66,6 @@ body {
 .data {
   width: 60%;
   height: 98%;
-  border: 2px solid red;
 }
 .shoe img {
   width: 70%;
@@ -74,9 +73,63 @@ body {
 }
 .data img {
   width: 30px;
+  margin-left: 20px;
+  padding: 2px;
 }
 .data h3 {
   color: #7ebdf8;
   font-size: small;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.data button {
+  margin-left: 20px;
+  width: 90px;
+  height: 20px;
+  background: #04b0ee;
+  border-radius: 9px;
+}
+.data p {
+  color: #7ebdf8;
+}
+.data label {
+  margin-left: 20px;
+  width: 10px;
+}
+.data input {
+  margin-left: 20px;
+  border-top: 0px;
+  border-left: 0px;
+  width: 50%;
+  border-right: 0px;
+  color: #04b0ee;
+  background-color: #151320;
+}
+label {
+  color: #04b0ee;
+  margin-left: 4px;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.delivery {
+  margin-top: 9px;
+  border-radius: 5px;
+  width: 20%;
+  height: 17%;
+  align-items: center;
+  color: #04b0ee;
+  border: 1px solid aqua;
+  margin-left: 10px;
+}
+.d1 {
+  width: 100%;
+  color: #beced4;
+  font-size: smaller;
+}
+.btn button {
+  margin-left: 130px;
+  width: 200px;
+  height: 30px;
+  color: #000000;
+  font-family: cursive;
+  background-color: #04b0ee;
 }

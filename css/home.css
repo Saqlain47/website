@@ -305,6 +305,7 @@ footer .container .sec h3:hover:before {
 .card:hover .imgbox h4 {
   content: "";
   position: relative;
+  margin-bottom: 60px;
   font-weight: 200px;
   color: rgb(27, 216, 83);
   filter: brightness(5px);
@@ -479,11 +480,12 @@ a .btn3 {
 .card4:hover .imgbox4 {
   content: "";
   position: relative;
-  transform: translateY(-35px);
+  transform: translateY(-40px);
 }
 .card4:hover .imgbox4 .h4_4 {
   content: "";
   position: relative;
+  margin-bottom: 70px;
   font-weight: 200px;
   color: rgb(243, 69, 69);
   filter: brightness(5px);
