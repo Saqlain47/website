@@ -45,6 +45,7 @@ body {
   position: absolute;
   height: 98%;
   background-color: #151320;
+  border-radius: 5px;
   inset: 4px;
 }
 .side div {

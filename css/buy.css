@@ -1,0 +1,82 @@
+body {
+  background-color: #151320;
+}
+.side {
+  position: relative;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  height: 473px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 98px;
+  box-shadow: 0 20px 35px;
+  border-radius: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.side::before {
+  content: "";
+  position: absolute;
+  background-image: conic-gradient(#04b0ee 20deg, transparent 120deg);
+  border-radius: 5px;
+  width: 120%;
+  top: -20%;
+  left: -20%;
+  height: 120%;
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.side::after {
+  content: "";
+  width: 99%;
+  height: 98%;
+  top: 2px;
+  right: 2px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  color: #04b0ee;
+  position: absolute;
+  height: 98%;
+  background-color: #151320;
+  border-radius: 5px;
+  inset: 4px;
+}
+.side div {
+  position: relative;
+  z-index: 10;
+}
+.shoe {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91%;
+  border: 1px solid rgb(15, 187, 218);
+}
+.data {
+  width: 60%;
+  height: 98%;
+  border: 2px solid red;
+}
+.shoe img {
+  width: 70%;
+  rotate: 90deg;
+}
+.data img {
+  width: 30px;
+}
+.data h3 {
+  color: #7ebdf8;
+  font-size: small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
